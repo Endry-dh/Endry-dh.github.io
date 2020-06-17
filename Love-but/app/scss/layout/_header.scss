@@ -1,0 +1,141 @@
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header{
+	width:100%;
+	min-width: $min-width;
+	font-family: $custom-font-family;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.header {
+	padding: 15px 0 25px 0;
+	.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+	&-logo {
+		height: auto;
+		display: flex;
+		align-items: center;
+		margin: 0 50px 0 0;
+		&__img {
+			display: block;
+			height: auto;
+		}
+		&__text {
+			font-family: 'Museo-Sans';
+			font-size: 22px;
+			margin-left: 10px;
+			text-transform: uppercase;
+			white-space: nowrap;
+		}
+	}
+}
+
+.footer-btn {
+	padding: 10px 15px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 15px;
+}
+
+.menu {
+	display: flex;
+
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 0;
+	align-items: center;
+	justify-content: space-between;
+	flex-flow: row wrap;
+
+	&__item {
+		display: inline-block;
+	}
+	&__link {
+		display: block;
+		padding: 5px 0;
+		margin: 5px 25px 5px 0;
+		border-bottom: 1px solid transparent;
+		transition: all .5s;
+		&:hover {
+			color: lighten(#333333, 50%);
+			border-bottom: 1px solid #333;
+			box-sizing: content-box;
+		}
+	}
+	&__nav {
+		margin: 0;
+		padding: 0;
+		font-size: 18px;
+	}
+	&__language {
+		.menu__link {
+			margin: 0;
+			padding: 4px;
+			transition: all .5s;
+			border: 1px solid transparent;
+			&:hover,
+			&:active,
+			&:focus,
+			&.active {
+				border-bottom: none;
+				border: 1px solid #b7b6b4;
+			}
+		}
+	}
+	&__for-visitors {
+		.menu__link {
+			margin: 0 7px 0 0;
+		}
+	}
+}
+
+.btn__burger {
+	display: none;
+}
+
+@media screen and (max-width:992px) {
+	.menu {
+		position: absolute;
+		display: none;
+		left: 0;
+		top: 69px;
+		background-color: #ddd;
+		z-index: 10;
+		flex-direction: column;
+
+		&__nav,
+		&__language {
+			border-bottom: 1px solid #d6d0c9;
+		}
+		&__language {
+			text-align: center;
+			li.menu__item {
+				display: inline-block;
+			}
+		}
+	}
+
+	.btn__burger {
+		display: block;
+	}
+	.menu__item {
+		display: block;
+		margin: 15px;
+		text-align: center;
+	}
+}
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+
