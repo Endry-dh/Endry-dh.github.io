@@ -1,0 +1,5 @@
+/*================================================================================| TAGS |================================================================================*/
+
+.loaded .main-wrapper{visibility:hidden;}
+.icon-load{width:40px;height:40px;position:fixed;left:50%;top:50%;margin-left:-20px;margin-left:-20px;display:none;}
+.loaded .icon-load{display:block;}
