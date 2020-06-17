@@ -1,2 +1,0 @@
-#Andrii Dryhant
-My Portfolio
