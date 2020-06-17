@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SkySoft</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" media="screen">
+	<link rel="stylesheet" href="css/jquery.fancybox-buttons.css">
+	<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css">
+</head>
+<body>
+
+	<nav class="flex">
+		<div class="block-logo">
+			<img src="images/logo-small.png" alt="">
+		</div>
+		<ul>
+			<li><a class="active" href="#aboutAs">О нас </a>
+			<li><a href="#development">Разработка сайтов</a></li>
+			<!-- <li><a href="">Хостинг и домены</a></li>
+			<li><a href="">Системы</a></li> -->
+			<li><a href="#contact">Контакты</a></li></li>
+		</ul>
+		<div class="block-settings">
+			<a href=""><img class="invalid" src="images/invalid.png" alt=""></a>
+			<a href="">eng</a>
+		</div>
+		<i id="showMenu" class="fa fa-bars" aria-hidden="true" style="display: none"></i>
+	</nav>
+
+	<div id="mobileMenu" class="mobile-menu" style="display: none">
+		<a class="active" href="#aboutAs">О нас </a>
+		<a href="#development">Разработка сайтов</a>
+			<!-- <li><a href="">Хостинг и домены</a></li>
+			<li><a href="">Системы</a></li> -->
+		<a href="#contact">Контакты</a></li>
+		<div class="block-settings">
+			<a href=""><img class="invalid" src="images/invalid.png" alt=""></a>
+			<a href="">eng</a>
+		</div>
+	</div>
+
+	<div class="main-page" id="aboutAs">
+		<a class="fancybox" rel="gallery1" href="images/masonri/57.png"><img src="images/masonri/57.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/58.png"><img src="images/masonri/58.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/59.png"><img src="images/masonri/59.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/60.png"><img src="images/masonri/60.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/61.png"><img src="images/masonri/61.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/62.png"><img src="images/masonri/62.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/63.png"><img src="images/masonri/63.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/64.png"><img src="images/masonri/64.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/65.png"><img src="images/masonri/65.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/66.png"><img src="images/masonri/66.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/67.png"><img src="images/masonri/67.png" alt=""></a>
+		<a class="fancybox" rel="gallery1" href="images/masonri/68.png"><img src="images/masonri/68.png" alt=""></a>
+
+		<img id="clouds" class="logo-clouds" src="images/logo-clouds.png" alt="">
+		<img id="text" class="logo-text" src="images/logo-text.png" alt="">
+		<h1 id="slogan" class="rtl">אנחנו הגב שלכם בעולם הדיגיטל</h1>
+		<a id="submit" href="#">About us</a>
+	</div>
+
+	<div class="popup" id="popup1" style="display: none;">
+		<div class="popup-content rtl">
+			<div class="top">
+				<a href="#" id="popupHide"><img src="images/close.png" alt="">CLOSE</a>
+				<h1>About us</h1>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, tempora odit alias nihil et doloribus accusamus, rerum facere voluptas aut iure fugiat est quae, inventore totam esse fuga mollitia ut!</p>
+			<a href="">Explore more</a>
+		</div>
+	</div>
+
+	<section class="web-development" id="development">
+		<div class="container no-padd">
+			<h1>Web development</h1>
+			<div class="col-lg-12 offset-bottom">
+				<p class="rtl">חברתנו מספקת שירותי פיתוח במגבן רחב של סביבות פיתוח, כגון: <span>Angular.js ,HTML 5 , ASP.NET, C#, MVC5.0 , MSSQL/MYSQL (big data), css, canvas, video, svg, אנימציות, Bootstap, PHP, JavaScript, LocalStorage API, Wordpress, Joomla, OpenCart, PrestaShop.</span> אנחנו נדעה להתאים עבורכם פתרון יעיל ביותר במחירים אטרקטיביים במיוחד. תהליך עבודה אצלנו הוא שקוף לחלוטין ומותאם ב 100% לצורכי לקוח וכולל מנהל פרויקט מנוסה שיבנה אפיון מפורט ומובן ורק אחרי זה יכנס פתרון לפיתוח</p>
+			</div>
+			<div class="col-lg-12 arrow"><img src="images/stage-arrow.png" alt=""></div>
+			<div class="stage-subtitle" style="display: none">:תהליך עבודה שלנו בנוי מ 7 שלבים</div>
+			<div class="col-lg-12 arrow-mobile" style="display: none"><img src="images/stage-arrow-mobile.png" alt=""></div>
+			<div class="col-lg-12 items" style="display: none">
+				<ul>
+					<li dir="rtl">1. מנהל פרויקט עובד מול לקוח ובונה אפיון מסודר </li>
+					<li dir="rtl">2. מתאמים צוות לביצוע פרויקט </li>
+					<li dir="rtl">3. מפתחים גרסה ראשונה </li>
+					<li dir="rtl">4. שלב התיקונים </li>
+					<li dir="rtl">5. מציגים גרסה שניה </li>
+					<li dir="rtl">6. שלב תיקונים </li>
+					<li dir="rtl">7. גרסה שלישית ומסירה ללקוח </li>
+				</ul>
+			</div>
+			<div class="col-lg-12">
+				<p class="rtl">בגמר הפרויקט, קיימת אפשרות לשירותי אחזקה ותפעול האתר, כולל פיתוחים נוספים, הזנת תוכן וצרכי העסק.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact-us" id="contact">
+		<form action="">
+			<div>
+				<h1>Contact Us</h1> <br>
+			</div>
+			<div class="table">
+				<input placeholder="Name, Last name" name="name" type="text">
+				<input placeholder="Company" name="company" type="text">
+				<input placeholder="Phone" name="phone" type="text">
+				<input placeholder="E-mail" name="email" type="email">
+			</div>
+			<div class="textarea">
+				<textarea placeholder="Your message" name="message"></textarea>
+			</div>
+			<input type="submit" value="send request">
+		</form>
+	</section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery.fancybox.js"></script>
+<script src="script/jquery.fancybox.pack.js"></script>
+<script src="script/jquery.fancybox-buttons.js"></script>
+<script src="script/jquery.fancybox-media.js"></script>
+<script src="script/jquery.fancybox-thumbs.js"></script>
+<script src="script/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
