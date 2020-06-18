@@ -1,0 +1,112 @@
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+.footer{
+	width:100%;
+	min-width: $min-width;
+	padding: 20px 0;
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__contact-number {
+		cursor: pointer;
+		display: inline-block;
+		margin-right: 25px;
+		margin-bottom: 35px;
+		.icon-tel {
+			border-radius: 50%;
+			border: 1px solid #383838;
+			padding: 7px;
+			font-size: 16px;
+		}
+		&:hover .footer__number {
+			color: lighten(#333333, 40%);
+		}
+	}
+	&__number {
+		display: inline-block;
+		font-size: 18px;
+		margin-left: 10px;
+		span {
+			font-weight: 500;
+		}
+	}
+	&__social-icons {
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: center;
+		a {
+			cursor: pointer;
+			border: 1px solid #333333;
+			padding: 7px;
+			font-size: 14px;
+			margin: 0 5px;
+			transition: all .5s;
+			&:hover {
+				box-shadow: 0 0 5px 1px #222222;
+			}
+		}
+		.icon-fb {
+			padding: 7px 11px;
+			&:hover {
+				color: #fff;
+				background-color: #5C54B6;
+			}
+		}
+		.icon-vk {
+			&:hover {
+				color: #fff;
+				background-color: #5C54B6;
+			}
+		}
+		.icon-instagram {
+			&:hover {
+				color: #fff;
+				/*background-color: #FF007B;*/
+				background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 10%, #fd5949 40%,#d6249f 60%,#285AEB 100%);
+			}
+		}
+	}
+	&__info {
+		font-family: $custom-font-family;
+		font-weight: 300;
+		font-size: 14px;
+		a {
+			margin: 5px;
+			border-bottom: 1px solid transparent;
+			&:hover {
+				color: darken(#333, 70%);
+				border-bottom: 1px solid #333;
+			}
+		}
+	}
+}
+
+@media screen and (min-width:500px) {
+	.footer {
+		.wrapper {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+}
+
+@media screen and (min-width:768px) {
+	.footer__contact-number {
+		margin-bottom: 0;
+	}
+	.footer__social-icons {
+		display: inline-block;
+		margin-bottom: 0;
+	}
+}
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
