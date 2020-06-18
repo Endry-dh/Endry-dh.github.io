@@ -1,6 +1,6 @@
 # Andrii Dryhant
 
-Project - [Master Media](http://Endry-dh.github.io/Master%20Media/)
+Project - [Master Media](http://Endry-dh.github.io/MasterMedia/)
 
 Project - [DiplomasVip](http://Endry-dh.github.io/DiplomasVip]/)
 
