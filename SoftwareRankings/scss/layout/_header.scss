@@ -1,0 +1,65 @@
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header{
+	background: linear-gradient(to right, #1bafe2 0%, #13c685 100%);
+	width: 100%;
+	min-width: $min-width;
+	text-align: left;
+	order: 1;
+	-webkit-order: 1;
+}
+
+.header {
+	padding: 15px 0 20px 0;
+	margin-bottom: 27px;
+	.wrapper {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	&__logo {
+		margin-top: 5px;
+		margin-bottom: -5px;
+		font-size: 57px;
+		margin-right: 22px;
+	}
+	&__name {
+		color: white;
+		font-family: 'roboto-bold';
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 32px;
+	}
+	&__description {
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 32px;
+		padding: 0;
+		margin-left: 30px;
+	}
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
