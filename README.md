@@ -4,7 +4,7 @@ Project - [Master Media](http://Endry-dh.github.io/Master Media/)
 
 Project - [DiplomasVip](http://Endry-dh.github.io/DiplomasVip]/)
 
-Project - [Software Ranking](http://Endry-dh.github.io/Software Ranking/)
+Project - [Software Rankings](http://Endry-dh.github.io/Software Rankings/)
 
 Project - [Teratek](http://Endry-dh.github.io/Teratek)
 
