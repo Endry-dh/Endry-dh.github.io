@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Analysis</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+<body>
+  <header class="header">
+    <img class="header__menu-icon" src="./img/icons/menu.svg" alt="">
+    <img class="header__logo" src="./img/logo.png" alt="">
+    <div class="header__wrap-nav">
+      <nav class="header__nav">
+        <a href="" class="header__item">חבילות</a>
+        <li>
+          <a href="" class="header__item">השירותים שלנו</a>
+          <div class="header__tooltip">
+            <a href="">מחולל גרפים</a>
+            <a href="">רשימת הזדמנויות</a>
+            <a href="">דוח נכס</a>
+          </div>
+        </li>
+        <a href="" class="header__item">אודות</a>
+        <a href="" class="header__item">צור קשר</a>
+      </nav>
+      <div class="header__wrap-search">
+        <label for="">
+        <button class="button-base popupLogin">התחברות / הרשמה</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="popup-login">
+    <div class="popup-login__wrap-content">
+      <img class="popup-login__cancel" src="./img/icons/cancel-dark.svg" alt="">
+      <div class="popup-login__content">
+        <form action="">
+          <p class="popup-login__title">הרשמה</p>
+          <label for="">
+            <input type="text" placeholder="*שם פרטי" name="" id="">
+            <input type="text" placeholder="*שם משפחה" name="" id="">
+          </label>
+          <input type="email" placeholder="*דואר אלקטרוני" name="" id="">
+          <input type="password" placeholder="*סיסמא" name="" id="">
+          <input type="password" placeholder="*אימות סיסמא" name="" id="">
+          <span>*שדה חובה</span>
+          <div class="popup-login__i-agree">
+            <input type="checkbox" name="" id="">
+            <span>קראתי ואני מסכים</span>
+            <a href="">לתנאי השימוש</a>
+          </div>
+          <button class="button-base"> צור חשבון</button>
+          <div class="popup-login__divider"></div>
+          <button class="button-base button-base_fb">הרשמה עם פייסבוק</button>
+          <button class="button-base button-base_go">הרשמה עם גוגל</button>
+        </form>
+
+        <div class="popup-login__divider-big"></div>
+
+        <form action="">
+          <p class="popup-login__title">התחברות</p>
+          <input type="email" placeholder="*דואר אלקטרוני" name="" id="">
+          <input type="password" placeholder="*סיסמא" name="" id="">
+          <button class="button-base">כניסה</button>
+          <div class="popup-login__i-agree">
+            <a href="">שכחתי את פרטי הכניסה שלי</a>
+          </div>
+          <div class="popup-login__divider"></div>
+          <button class="button-base button-base_fb">הרשמה עם פייסבוק</button>
+          <button class="button-base button-base_go">הרשמה עם גוגל</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <main class="dashboard">
+    <aside class="right-menu">
+      <div class="right-menu__content">
+        <a href="">
+          <img src="./img/icons/Group 6-1.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 10.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 101.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 13.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 3.svg" alt="">
+        </a>
+      </div>
+    </aside>
+
+    <section class="analysis-page">
+      <h3 class="analysis-page__main-title">ניתוחים</h3>
+      <h4 class="analysis-page__subtitle">ניתוחים ששמרת</h4>
+      <div class="analysis-page__wrap-content">
+        <div class="results-table">
+          <div class="results-table__filter">
+            <div class="results-table__filter-item results-table__filter-item_dis-none-1000">
+              <span class="filter"> סנן ע״פ</span>
+            </div>
+            <div class="results-table__filter-item">
+              <span class="arrow">מחיר</span>
+            </div>
+            <div class="results-table__filter-item">
+              <span class="arrow">תשואה בדמי שכירות</span>
+            </div>
+            <div class="results-table__filter-item results-table__filter-item_dis-none-680">
+              <span class="arrow">עלית מחיר <br>
+                (3 השנים האחרונות)</span>
+            </div>
+            <div class="results-table__filter-item results-table__filter-item_dis-none-680">
+              <span class="arrow">חדרים</span>
+            </div>
+            <div class="results-table__filter-item">
+              <span class="arrow">גודל במר</span>
+            </div>
+            <div class="results-table__filter-item">
+              <span class="arrow">קומה מתוך קומה</span>
+            </div>
+            <div class="results-table__filter-item">
+              <span class="arrow">שנת בנייה</span>
+            </div>
+            <div class="results-table__filter-item">
+            </div>
+          </div>
+  
+          <div class="results-table__wrap-content white-block">
+            <div class="results-table__wrap">
+              <div class="results-table__item-2-wrap">
+                <div class="results-table__item_border results-table__item_heart">
+                  <div class="results-table__img-heart results-table__img-heart_active">
+                  </div>
+                </div>
+                <div class="results-table__item_border results-table__item_adress">
+                  <p>
+                    <span>דרך השלום 22</span>
+                    דירה, 3 חדרים, שכונה ג', תל אביב
+                  </p>
+                </div>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>מחיר</span>
+                <p> 3,000,000</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>תשואה בדמי שכירות</span>
+                <p>+3%</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>עלית מחיר
+                  (3 השנים האחרונות)</span>
+                <p>+18%</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>חדרים</span>
+                <p>4</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>גודל במר</span>
+                <p>64</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>קומה מתוך קומה</span>
+                <p>2</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>שנת בנייה</span>
+                <p>2003</p>
+              </div>
+              <div class="results-table__item results-table__item_arrow">
+                <div class="results-table__arrow"></div>
+              </div>
+            </div>
+  
+            <div class="results-table__content">
+              <img src="./img/Group 32.png" alt="">
+              <div class="results-table__content-wrap">
+                <p class="results-table__content-subtitle">רחוב מנדלי מוכר ספרים 4, קוממיות, ירושלים</p>
+                <p class="results-table__content-title" >תיאור הנכס</p>
+                <p class="results-table__content-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. זותה מנק הבקיץ אפאח דלאמת יבש.
+                <br><br>
+                הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש, כאנה ניצאחו נמרגי שהכים תוק, הדש שנרא התידם הכייר וק.</p>
+                <div>
+                    <div>
+                      <p class="results-table__content-title" >על הנכס</p>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 83.svg" alt="">
+                        <span>64 מ ״ר</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 86-2.svg" alt="">
+                        <span>4 חדרים</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 81.svg" alt="">
+                        <span>משנת 2002</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Combined Shape.svg" alt="">
+                        <span>קומה 2 מתוך 6</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 21.svg" alt="">
+                        <span>חניה בטאבו</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 90.svg" alt="">
+                        <span> מרפסת שירות</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/paint-roller.svg" alt="">
+                        <span>לא משופצת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 89.svg" alt="">
+                        <span>אין ממד</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/yard.svg" alt="">
+                        <span>ללא חצר</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 94.svg" alt="">
+                        <span>ללא מרפסת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 100.svg" alt="">
+                        <span>יש מעלית</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 87.svg" alt="">
+                        <span>אין מחסן</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="results-table__wrap-content white-block">
+            <div class="results-table__wrap">
+              <div class="results-table__item-2-wrap">
+                <div class="results-table__item_border results-table__item_heart">
+                  <div class="results-table__img-heart">
+                  </div>
+                </div>
+                <div class="results-table__item_border results-table__item_adress">
+                  <img class="crown-img" src="./img/icons/crown.svg" alt="">
+                  <p>
+                    שכונה ג', תל אביב</p>
+                </div>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>מחיר</span>
+                <p> 3,000,000</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>תשואה בדמי שכירות</span>
+                <p>+3%</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>עלית מחיר
+                  (3 השנים האחרונות)</span>
+                <p>+18%</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>חדרים</span>
+                <p>
+                  <img class="crown-img" src="./img/icons/crown.svg" alt="">
+                </p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>גודל במר</span>
+                <p>64</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>קומה מתוך קומה</span>
+                <p>2</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>שנת בנייה</span>
+                <p>2003</p>
+              </div>
+              <div class="results-table__item results-table__item_arrow">
+                <div class="results-table__arrow"></div>
+              </div>
+            </div>
+  
+            <div class="results-table__content">
+              <img src="./img/Group 32.png" alt="">
+              <div class="results-table__content-wrap">
+                <p class="results-table__content-subtitle">רחוב מנדלי מוכר ספרים 4, קוממיות, ירושלים</p>
+                <p class="results-table__content-title" >תיאור הנכס</p>
+                <p class="results-table__content-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. זותה מנק הבקיץ אפאח דלאמת יבש.
+                <br><br>
+                הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש, כאנה ניצאחו נמרגי שהכים תוק, הדש שנרא התידם הכייר וק.</p>
+                <div>
+                    <div>
+                      <p class="results-table__content-title" >על הנכס</p>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 83.svg" alt="">
+                        <span>64 מ ״ר</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 86-2.svg" alt="">
+                        <span>4 חדרים</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 81.svg" alt="">
+                        <span>משנת 2002</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Combined Shape.svg" alt="">
+                        <span>קומה 2 מתוך 6</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 21.svg" alt="">
+                        <span>חניה בטאבו</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 90.svg" alt="">
+                        <span> מרפסת שירות</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/paint-roller.svg" alt="">
+                        <span>לא משופצת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 89.svg" alt="">
+                        <span>אין ממד</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/yard.svg" alt="">
+                        <span>ללא חצר</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 94.svg" alt="">
+                        <span>ללא מרפסת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 100.svg" alt="">
+                        <span>יש מעלית</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 87.svg" alt="">
+                        <span>אין מחסן</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="results-table__wrap-content white-block">
+            <div class="results-table__wrap">
+              <div class="results-table__item-2-wrap">
+                <div class="results-table__item_border results-table__item_heart">
+                  <div class="results-table__img-heart">
+                  </div>
+                </div>
+                <div class="results-table__item_border results-table__item_adress">
+                  <img class="crown-img" src="./img/icons/crown.svg" alt="">
+                  <p>
+                    שכונה ג', תל אביב</p>
+                </div>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>מחיר</span>
+                <p> 3,000,000</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>תשואה בדמי שכירות</span>
+                <p>+3%</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>עלית מחיר
+                  (3 השנים האחרונות)</span>
+                <p>+18%</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>חדרים</span>
+                <p>4</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>גודל במר</span>
+                <p>64</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>קומה מתוך קומה</span>
+                <p>2</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>שנת בנייה</span>
+                <p>2003</p>
+              </div>
+              <div class="results-table__item results-table__item_arrow">
+                <div class="results-table__arrow"></div>
+              </div>
+            </div>
+  
+            <div class="results-table__content">
+              <img src="./img/Group 32.png" alt="">
+              <div class="results-table__content-wrap">
+                <p class="results-table__content-subtitle">רחוב מנדלי מוכר ספרים 4, קוממיות, ירושלים</p>
+                <p class="results-table__content-title" >תיאור הנכס</p>
+                <p class="results-table__content-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. זותה מנק הבקיץ אפאח דלאמת יבש.
+                <br><br>
+                הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש, כאנה ניצאחו נמרגי שהכים תוק, הדש שנרא התידם הכייר וק.</p>
+                <div>
+                    <div>
+                      <p class="results-table__content-title" >על הנכס</p>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 83.svg" alt="">
+                        <span>64 מ ״ר</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 86-2.svg" alt="">
+                        <span>4 חדרים</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 81.svg" alt="">
+                        <span>משנת 2002</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Combined Shape.svg" alt="">
+                        <span>קומה 2 מתוך 6</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 21.svg" alt="">
+                        <span>חניה בטאבו</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 90.svg" alt="">
+                        <span> מרפסת שירות</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/paint-roller.svg" alt="">
+                        <span>לא משופצת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 89.svg" alt="">
+                        <span>אין ממד</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/yard.svg" alt="">
+                        <span>ללא חצר</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 94.svg" alt="">
+                        <span>ללא מרפסת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 100.svg" alt="">
+                        <span>יש מעלית</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 87.svg" alt="">
+                        <span>אין מחסן</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="results-table__wrap-content white-block">
+            <div class="results-table__wrap">
+              <div class="results-table__item-2-wrap">
+                <div class="results-table__item_border results-table__item_heart">
+                  <div class="results-table__img-heart">
+                  </div>
+                </div>
+                <div class="results-table__item_border results-table__item_adress">
+                  <p>
+                    <span>מנדלי מוכר ספרים 4</span>
+                    דירה, 2 חדרים, קוממיות, תל אביב
+                  </p>
+                </div>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>מחיר</span>
+                <p> 3,000,000</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>תשואה בדמי שכירות</span>
+                <p>+3%</p>
+              </div>
+              <div class="results-table__item results-table__item_dis-none-680">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>עלית מחיר
+                  (3 השנים האחרונות)</span>
+                <p>+18%</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>חדרים</span>
+                <p>
+                  <img class="crown-img" src="./img/icons/crown.svg" alt="">
+                </p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>גודל במר</span>
+                <p>64</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>קומה מתוך קומה</span>
+                <p>2</p>
+              </div>
+              <div class="results-table__item">
+                <img src="./img/icons/yard.svg" alt="">
+                <span>שנת בנייה</span>
+                <p>2003</p>
+              </div>
+              <div class="results-table__item results-table__item_arrow">
+                <div class="results-table__arrow"></div>
+              </div>
+            </div>
+  
+            <div class="results-table__content">
+              <img src="./img/Group 32.png" alt="">
+              <div class="results-table__content-wrap">
+                <p class="results-table__content-subtitle">רחוב מנדלי מוכר ספרים 4, קוממיות, ירושלים</p>
+                <p class="results-table__content-title" >תיאור הנכס</p>
+                <p class="results-table__content-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. זותה מנק הבקיץ אפאח דלאמת יבש.
+                <br><br>
+                הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש, כאנה ניצאחו נמרגי שהכים תוק, הדש שנרא התידם הכייר וק.</p>
+                <div>
+                    <div>
+                      <p class="results-table__content-title" >על הנכס</p>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 83.svg" alt="">
+                        <span>64 מ ״ר</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 86-2.svg" alt="">
+                        <span>4 חדרים</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 81.svg" alt="">
+                        <span>משנת 2002</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Combined Shape.svg" alt="">
+                        <span>קומה 2 מתוך 6</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 21.svg" alt="">
+                        <span>חניה בטאבו</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 90.svg" alt="">
+                        <span> מרפסת שירות</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/paint-roller.svg" alt="">
+                        <span>לא משופצת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 89.svg" alt="">
+                        <span>אין ממד</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/yard.svg" alt="">
+                        <span>ללא חצר</span>
+                      </div> 
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 94.svg" alt="">
+                        <span>ללא מרפסת</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 100.svg" alt="">
+                        <span>יש מעלית</span>
+                      </div>
+                      <div class="results-table__content-wrap-icons">
+                        <img src="./img/icons/Group 87.svg" alt="">
+                        <span>אין מחסן</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="other-pages white-block">
+          <div class="other-pages__wrap">
+            <button class="other-pages__arrow other-pages__arrow_left">
+              <img src="./img/icons/arrow-top.svg" alt="">
+            </button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>........</button>
+            <button>125</button>
+            <button class="other-pages__arrow other-pages__arrow_right">
+              <img src="./img/icons/arrow-top.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/jquery-migrate-3.3.2.min.js"></script>
+  <script src="./js/components/jquery.formstyler.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./js/custom.js"></script>
+</body>
+</html>

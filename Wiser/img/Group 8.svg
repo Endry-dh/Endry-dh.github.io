@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363px" height="363px" viewBox="0 0 363 363" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <defs>
+        <filter x="-23.6%" y="-23.6%" width="147.2%" height="147.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="13" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.839215686   0 0 0 0 0.835294118   0 0 0 0 0.835294118  0 0 0 0.439985795 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.149925464 0.029458 266.640673 0.029458 266.640673 266.520777 0.149925464 266.520777"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-property" transform="translate(-742.000000, -1899.000000)">
+            <g id="Group-8" filter="url(#filter-1)" transform="translate(789.000000, 1946.000000)">
+                <g id="Group-3" transform="translate(2.000000, 1.197142)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M237.352034,216.617953 C191.322776,274.032501 107.465367,283.261466 50.0521784,237.230848 C-7.36236996,191.20159 -16.5899752,107.344182 29.4392828,49.9309928 C75.4685408,-7.48219604 159.32459,-16.7111608 216.739138,29.3180972 C274.152327,75.3473552 283.381292,159.204764 237.352034,216.617953" id="Fill-1" fill="#001950" mask="url(#mask-3)"></path>
+                </g>
+                <path d="M133.241072,133.664406 L237.197448,217.007886 C211.926562,248.528852 173.641586,266.905206 133.241072,266.905206 C60.1476163,266.905206 0.00027192,206.757862 0.00027192,133.664406 C0.00027192,60.5709504 60.1476163,0.42360604 133.241072,0.42360604 C133.730528,0.42360604 134.219984,0.42632524 134.7108,0.43176364 L133.241072,133.664406 Z" id="Fill-4" fill="#FF8B00"></path>
+                <path d="M135.241072,134.664406 L239.197448,218.007886 C193.476819,275.037668 108.926014,284.34141 51.8975919,238.620782 C46.7379099,234.484878 41.8936551,229.969647 37.4042559,225.114515 L135.241072,134.664406 Z" id="Fill-6" fill="#1843A0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

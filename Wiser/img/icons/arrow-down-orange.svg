@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="7px" viewBox="0 0 13 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow / Short / Left</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.543816 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M6.48462064,5.91825204 C6.70411171,6.13870826 6.70500119,6.50427489 6.48800922,6.72266149 L1.28830626,12.139318 C1.07658126,12.3680794 0.726096909,12.3680794 0.508120695,12.1410056 C0.296807892,11.9213864 0.297667311,11.5542524 0.509930459,11.3254275 L4.88825937,6.77299087 L5.29521363,6.32189845 L4.89151302,5.87415593 L0.508120695,1.30778383 C0.297309196,1.08868562 0.297309196,0.722441832 0.508024143,0.502932468 C0.725849103,0.276016345 1.07527869,0.275751985 1.28747252,0.503622423 L6.48462064,5.91825204 Z" id="path-2"></path>
+        <rect id="path-4" x="0" y="0" width="17.1111111" height="14.743833"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-property" transform="translate(-755.000000, -641.000000)">
+            <g id="Group-102" transform="translate(634.000000, 589.000000)">
+                <g id="Group-88" transform="translate(0.000000, 40.000000)">
+                    <g id="Arrow-/-Short-/-Left" transform="translate(121.000000, 8.000000)" filter="url(#filter-1)">
+                        <g transform="translate(6.500000, 7.500000) rotate(90.000000) translate(-6.500000, -7.500000) translate(3.000000, 1.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Shape" fill-rule="nonzero" transform="translate(3.500000, 6.321917) scale(-1, 1) translate(-3.500000, -6.321917) "></g>
+                            <g id="Group" mask="url(#mask-3)">
+                                <g transform="translate(-5.055556, -0.700000)" id="↳🎨Color">
+                                    <mask id="mask-5" fill="white">
+                                        <use xlink:href="#path-4"></use>
+                                    </mask>
+                                    <use id="Rectangular" fill="#000000" xlink:href="#path-4"></use>
+                                    <g id="Group" mask="url(#mask-5)" opacity="0.100000001">
+                                        <g id="↳⚙️State">
+                                            <rect id="Rectangular" x="0" y="0" width="17.1111111" height="14.743833"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

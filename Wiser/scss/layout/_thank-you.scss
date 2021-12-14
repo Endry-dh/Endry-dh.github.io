@@ -1,0 +1,45 @@
+.thank-you {
+  padding: 100px 20px 120px 20px;
+  max-width: 721px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    max-width: 382px;
+    margin-bottom: 40px;
+  }
+
+  .our-services__main-title {
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__wrap-btn {
+
+    .button-base {
+      height: auto;
+      padding: 12px 0;
+      width: 130px;
+      font-size: 15px;
+
+      @include _480 {
+        width: 194px;
+        font-size: 20px;
+      }
+
+      &:last-child {
+        background-color: $white;
+        border: 1px solid #001950;
+        color: #001950;
+        margin-right: 15px;
+      }
+    }
+  }
+}

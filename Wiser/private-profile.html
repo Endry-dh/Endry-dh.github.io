@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Private Profile</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+<body>
+  <header class="header">
+    <img class="header__menu-icon" src="./img/icons/menu.svg" alt="">
+    <img class="header__logo" src="./img/logo.png" alt="">
+    <div class="header__wrap-nav">
+      <nav class="header__nav">
+        <a href="" class="header__item">חבילות</a>
+        <li>
+          <a href="" class="header__item">השירותים שלנו</a>
+          <div class="header__tooltip">
+            <a href="">מחולל גרפים</a>
+            <a href="">רשימת הזדמנויות</a>
+            <a href="">דוח נכס</a>
+          </div>
+        </li>
+        <a href="" class="header__item">אודות</a>
+        <a href="" class="header__item">צור קשר</a>
+      </nav>
+      <div class="header__wrap-search">
+        <button class="button-base popupLogin">התחברות / הרשמה</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="popup-login">
+    <div class="popup-login__wrap-content">
+      <img class="popup-login__cancel" src="./img/icons/cancel-dark.svg" alt="">
+      <div class="popup-login__content">
+        <form action="">
+          <p class="popup-login__title">הרשמה</p>
+          <label for="">
+            <input type="text" placeholder="*שם פרטי" name="" id="">
+            <input type="text" placeholder="*שם משפחה" name="" id="">
+          </label>
+          <input type="email" placeholder="*דואר אלקטרוני" name="" id="">
+          <input type="password" placeholder="*סיסמא" name="" id="">
+          <input type="password" placeholder="*אימות סיסמא" name="" id="">
+          <span>*שדה חובה</span>
+          <div class="popup-login__i-agree">
+            <input type="checkbox" name="" id="">
+            <span>קראתי ואני מסכים</span>
+            <a href="">לתנאי השימוש</a>
+          </div>
+          <button class="button-base"> צור חשבון</button>
+          <div class="popup-login__divider"></div>
+          <button class="button-base button-base_fb">הרשמה עם פייסבוק</button>
+          <button class="button-base button-base_go">הרשמה עם גוגל</button>
+        </form>
+
+        <div class="popup-login__divider-big"></div>
+
+        <form action="">
+          <p class="popup-login__title">התחברות</p>
+          <input type="email" placeholder="*דואר אלקטרוני" name="" id="">
+          <input type="password" placeholder="*סיסמא" name="" id="">
+          <button class="button-base">כניסה</button>
+          <div class="popup-login__i-agree">
+            <a href="">שכחתי את פרטי הכניסה שלי</a>
+          </div>
+          <div class="popup-login__divider"></div>
+          <button class="button-base button-base_fb">הרשמה עם פייסבוק</button>
+          <button class="button-base button-base_go">הרשמה עם גוגל</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <main class="private-profile">
+    <aside class="right-menu">
+      <div class="right-menu__content">
+        <a href="">
+          <img src="./img/icons/Group 6-1.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 10.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 101.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 13.svg" alt="">
+        </a>
+        <a href="">
+          <img src="./img/icons/Group 3.svg" alt="">
+        </a>
+      </div>
+    </aside>
+
+    <section>
+      <h3 class="private-profile__title">פרופיל אישי</h3>
+      <div class="private-profile__wrap-content">
+        <div class="tabs-wrap">
+          <div class="tabs">
+            <div class="tabs__wrap-btn tabs__wrap-btn_private-profile">
+              <button class="tabs__btn tabs__btn_private-profile
+              ">פרטים אישיים</button>
+              <button class="tabs__btn tabs__btn_private-profile">אמצעי תשלום</button>
+              <button class="tabs__btn tabs__btn_private-profile">תוקף מנוי</button>
+            </div>
+            <div class="tabs__content tabs__content_private-profile">
+              <p class="private-profile__tabs-title">עדכון פרטים</p>
+              <form action="">
+                <label for="">
+                  <input type="text" placeholder="שם פרטי">
+                  <input type="text" placeholder="שם משפחה">
+                </label>
+                <label for="">
+                  <input type="text" placeholder="טלפון">
+                  <input type="email" placeholder="אימייל">
+                </label>
+                <input type="text" placeholder="כתובת">
+                <label for="">
+                  <input type="text" placeholder="ע״מ / ח״פ">
+                  <input type="text" placeholder="על שם מי החשבונית">
+                </label>
+              </form>
+              <div class="private-profile__wrap-btn">
+                <button class="button-base">ביטול</button>
+                <button class="button-base"> שמור שינויים</button>
+              </div>
+            </div>
+            <div class="tabs__content tabs__content_private-profile">
+              <p class="private-profile__tabs-title">עדכון אמצעי תשלום</p>
+              <form action="">
+                <input type="text" placeholder="מספר כרטיס אשראי">
+                <label for="">
+                  <input type="text" placeholder="cvv">
+                  <input type="text" placeholder="תוקף">
+                </label>
+                <input type="text" placeholder="שם מחזיק הכרטיס">
+                <input type="text" placeholder="מספר תעודת זהות">
+              </form>
+              <div class="private-profile__wrap-btn">
+                <button class="button-base">ביטול</button>
+                <button class="button-base"> שמור שינויים</button>
+              </div>
+            </div>
+            <div class="tabs__content tabs__content_private-profile">
+              <p class="private-profile__tabs-title">מידע על המנוי</p>
+              <div class="private-profile__sticker">
+                <p>מנוי פעיל <strong>חבילה בסיסית</strong> החל מהתאריך 24/04/2021
+                  חידוש אוטומטי יחל ב24/04/2022
+                </p>
+                <div>
+                  <button>שינוי חבילה</button>
+                  <button>ביטול מנוי</button>
+                </div>
+              </div>
+              <div class="private-profile__wrap-btn">
+                <button class="button-base">ביטול</button>
+                <button class="button-base"> שמור שינויים</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/jquery-migrate-3.3.2.min.js"></script>
+  <script src="./js/components/jquery.formstyler.min.js"></script>
+  <script src="./js/components/FlexSlider/jquery.flexslider-min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./js/custom.js"></script>
+</body>
+</html>

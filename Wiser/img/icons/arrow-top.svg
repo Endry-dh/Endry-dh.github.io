@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="10px" viewBox="0 0 19 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8D17E586-969D-49BD-A1AD-5012EC0A4336</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.485773 0 0 0 0 0.684149 0 0 0 0 0.966684 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M9.26374377,8.89340982 C9.57730244,9.22469133 9.57857313,9.77403156 9.2685846,10.102203 L1.84043752,18.2418608 C1.53797323,18.5856225 1.0372813,18.5856226 0.725886707,18.2443968 C0.424011274,17.914373 0.425239016,17.3626776 0.728472084,17.0188203 L6.98322767,10.1778334 L7.5645909,9.49997286 L6.98787574,8.8271462 L0.725886707,1.96521836 C0.424727424,1.63597753 0.424727424,1.08561975 0.725748775,0.755761079 C1.03692729,0.414772209 1.53611242,0.414374954 1.83924645,0.756797882 L9.26374377,8.89340982 Z" id="path-2"></path>
+        <rect id="path-4" x="0" y="0" width="24.4444444" height="22"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-property" transform="translate(-969.000000, -3159.000000)">
+            <g id="Group-99" transform="translate(29.000000, 3065.000000)">
+                <g id="Arrow-/-Short-/-Left" transform="translate(928.000000, 47.000000)" filter="url(#filter-1)">
+                    <g transform="translate(21.500000, 52.000000) scale(1, -1) rotate(90.000000) translate(-21.500000, -52.000000) translate(16.500000, 42.500000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Shape" fill-rule="nonzero" transform="translate(5.000000, 9.500000) scale(-1, 1) translate(-5.000000, -9.500000) "></g>
+                        <g id="↳🎨Color" mask="url(#mask-3)">
+                            <g transform="translate(-7.222222, -1.000000)">
+                                <mask id="mask-5" fill="white">
+                                    <use xlink:href="#path-4"></use>
+                                </mask>
+                                <use id="Rectangular" stroke="none" fill="#000000" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <g id="↳⚙️State" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-5)" opacity="0.100000001">
+                                    <rect id="Rectangular" x="0" y="0" width="24.4444444" height="22"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="28px" viewBox="0 0 20 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>location contact</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.543816 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <polygon id="path-2" points="0 0 19.2494666 0 19.2494666 27.5385 0 27.5385"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-1608.000000, -5034.000000)">
+            <g id="Group-18" transform="translate(751.000000, 5031.000000)">
+                <g id="location-contact" transform="translate(667.000000, 3.000100)" filter="url(#filter-1)">
+                    <g transform="translate(190.000000, 0.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M9.6218,14.0065 C7.1998,14.0065 5.2368,12.0435 5.2368,9.6215 C5.2368,7.2005 7.1998,5.2375 9.6218,5.2375 C12.0438,5.2375 14.0068,7.2005 14.0068,9.6215 C14.0068,12.0435 12.0438,14.0065 9.6218,14.0065 M9.6218,-0.0005 C4.3078,-0.0005 -0.0002,4.3085 -0.0002,9.6215 C-0.0002,18.3595 9.6218,27.5385 9.6218,27.5385 C9.6218,27.5385 19.5198,17.8065 19.2438,9.6215 C19.0638,4.3115 14.9358,-0.0005 9.6218,-0.0005" id="Fill-1" fill="#4C519B" mask="url(#mask-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

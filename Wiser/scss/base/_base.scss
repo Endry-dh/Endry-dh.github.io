@@ -1,0 +1,27 @@
+@import "./variables";
+@import "../components/mixins";
+
+html {
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  font-family: $base-ff;
+  direction: rtl;
+  color: $dark-blue;
+  height: 100%;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 55px;
+
+  @include _1000 {
+    padding-top: 75px;
+  }
+}
+
+.wrap-content {
+  padding: 27px 25px;
+}

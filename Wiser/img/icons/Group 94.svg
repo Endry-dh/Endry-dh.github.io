@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="24px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 94</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-property-copy-2" transform="translate(-940.000000, -1421.000000)">
+            <g id="Group-94" transform="translate(940.656418, 1421.000000)">
+                <g id="Group-93">
+                    <rect id="Rectangle" fill="#7CAEF7" x="5.34358217" y="0" width="16" height="9"></rect>
+                    <g id="Group-92" transform="translate(0.000000, 9.000000)">
+                        <rect id="Rectangle-Copy-35" fill="#001950" x="1.34358217" y="2" width="24" height="13" rx="1"></rect>
+                        <g id="Group-91" stroke="#001950" stroke-width="2">
+                            <line x1="1.34358217" y1="4.79616347e-13" x2="1.34358217" y2="15" id="Path-5-Copy"></line>
+                            <line x1="25.3435822" y1="4.79616347e-13" x2="25.3435822" y2="15" id="Path-5-Copy-3"></line>
+                        </g>
+                    </g>
+                </g>
+                <line x1="13.3435822" y1="0" x2="13.3435822" y2="9" id="Path-9" stroke="#FFFFFF" stroke-width="2"></line>
+            </g>
+        </g>
+    </g>
+</svg>

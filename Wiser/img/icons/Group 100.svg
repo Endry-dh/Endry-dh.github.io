@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 100</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-property-copy-2" transform="translate(-940.000000, -1476.000000)">
+            <g id="Group-100" transform="translate(940.000000, 1478.103588)">
+                <g id="Group-86" transform="translate(0.000000, 4.896412)">
+                    <rect id="Rectangle-Copy-35" fill="#001950" x="0" y="0" width="24" height="22" rx="2"></rect>
+                    <line x1="12" y1="0" x2="12.1564178" y2="22" id="Path-5" stroke="#FFFFFF" stroke-width="2"></line>
+                </g>
+                <polyline id="Path-8" stroke="#7CAEF7" stroke-width="2" points="3.99493316 2.9069189 6.96302266 5.66213743e-14 9.94174576 2.9069189"></polyline>
+                <polyline id="Path-8-Copy" stroke="#7CAEF7" stroke-width="2" transform="translate(16.968339, 1.453459) scale(1, -1) translate(-16.968339, -1.453459) " points="13.9949332 2.9069189 16.9630227 5.66213743e-14 19.9417458 2.9069189"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
