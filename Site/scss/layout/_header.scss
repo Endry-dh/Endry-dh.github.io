@@ -1,0 +1,117 @@
+@import "../components/mixins";
+.header {
+  background-color: $color-light-black;
+  padding: 10px 20px;
+  position: relative;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 46px;
+    margin-left: 50px;
+
+    @include _768 {
+      width: 80px;
+    }
+  }
+
+  &__nav {
+    width: 100%;
+    display: none;
+    color: $color-white;
+
+    position: absolute;
+    top: 61px;
+    background-color: $color-light-black;
+    z-index: 3;
+    left: 0;
+    width: 70%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+    @include _768 {
+      top: 91px;
+    }
+
+    @include _1200 {
+      display: block;
+      position: static;
+      padding: 0;
+      width: 100%;
+    }
+  }
+
+  &__wrap-item {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+
+    @include _1200 {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__item {
+    transition: $default-transition;
+    border-bottom: 2px solid $color-light-black;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 30px;
+
+    @include _1200 {
+      margin: 0;
+    }
+
+    &:hover {
+      color: $color-light-blue;
+      transition: $default-transition;
+
+      @include _1200 {
+        border-bottom: 2px solid $color-light-blue;
+      }
+    }
+  }
+
+  &__menu-btn {
+    width: 22px;
+
+    @include _1200 {
+      display: none
+    }
+  }
+
+  .tooltip {
+    position: absolute;
+    top: 30px;
+    right: calc(50% - (176px/2));
+    z-index: 9;
+    width: 176px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-white;
+    border-radius: $base-border-radius;
+    border: 1px solid $color-orange;
+    color: $color-light-black;
+    padding: 8px;
+    display: none;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        text-decoration: none;
+        color: $color-light-black;
+        font-size: 14px;
+        margin: 5px 0 5px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,285 @@
+.header {
+  padding-top: 10px;
+
+  & > .wrap-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 70px;
+
+    @include _768 {
+      & {
+        width: 104px;
+      }
+    }
+  }
+
+  &__navigation-wrap {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    right: -100%;
+    max-width: 320px;
+    top: 0;
+    background-color: $white;
+    padding: 20px;
+    transition: $default-transition;
+    z-index: 20;
+    display: none;
+
+    &_active {
+      display: block;
+      right: 0;
+      transition: $default-transition;
+    }
+
+    @include _1200 {
+      & {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        padding: 0;
+        max-width: none;
+        background-color: transparent;
+      }
+    }
+  }
+
+  &__navigation {
+    z-index: 20;
+
+    @include _1200 {
+      & {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  &__img-cancel {
+    width: 14px;
+    margin-left: auto;
+
+    @include _1200 {
+      & {
+        display: none;
+      }
+    }
+  }
+
+  &__item {
+    text-align: center;
+    font-family: $semibold-ff;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+    > a {
+      color: $black;
+      transition: $default-transition;
+
+      &:hover {
+        color: $yellow;
+        transition: $default-transition;
+      }
+    }
+
+    @include _1200 {
+      & {
+        margin-bottom: 0;
+        margin-left: 30px;
+      }
+    }
+  }
+
+  &__menu-btn {
+    width: 25px;
+    height: 16px;
+    background-image: url("../img/icons/icon-menu-black.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    @include _768 {
+      & {
+        width: 30px;
+        height: 19px;
+        background-image: url("../img/icons/icon-menu-white.png");
+      }
+    }
+    @include _1000 {
+      & {
+        width: 40px;
+        height: 25px;
+      }
+    }
+    @include _1200 {
+      & {
+        display: none;
+      }
+    }
+  }
+
+  &__wrap-btn {
+    position: relative;
+
+    button {
+      margin-bottom: 15px;
+
+      @include _1200 {
+        & {
+          margin-bottom: 0;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    @include _1200 {
+      & {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.form-sign-up, .form-login {
+  padding: 20px 20px 50px 20px;
+  border-radius: $base-border-radius;
+  background-color: $white;
+  
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  
+  display: none;
+  z-index: 20;
+
+  @include _480 {
+    & {
+      width: 400px;
+      right: 0;
+    }
+  }
+
+  @include _1200 {
+    & {
+      width: 500px;
+      top: 100px;
+      right: 170px;
+    }
+  }
+
+  &.active {
+    display: flex;
+  }
+
+  &__cancel {
+    align-self: flex-end;
+    cursor: pointer;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-family: $semibold-ff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  input {
+    border: 1px solid #A29B90;
+    outline: none;
+    box-sizing: border-box;
+    display: block;
+    border-radius: $base-border-radius;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    color: $black;
+
+    &:active, &:focus {
+      border-color: $yellow;
+    }
+
+    &::-webkit-input-placeholder {
+      color: #706A6A;
+    }
+    &::-moz-placeholder {
+      color: #706A6A;
+    }
+    &:-moz-placeholder {
+      color: #706A6A;
+    }
+    &:-ms-input-placeholder {
+      color: #706A6A;
+    }
+  }
+
+  select {
+    border: 1px solid #A29B90;
+    outline: none;
+    box-sizing: border-box;
+    display: block;
+    border-radius: $base-border-radius;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    color: $black;
+
+    &:active, &:focus {
+      border-color: $yellow;
+    }
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    input {
+      margin: 0;
+      padding: 0;
+      margin-right: 10px;
+      width: auto;
+    }
+
+    p {
+      font-size: 14px;
+      width: 100%;
+      width: auto;
+
+      a {
+        color: $blue;
+      }
+    }
+  }
+
+  .button-base {
+    margin: 30px 0;
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.form-login {
+  right: 0;
+
+  &__wrap-links {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,141 @@
+.make-an-order {
+  background-color: #BDE2FF;
+
+  &__content {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+
+  .dropdown-wrap {
+    padding: 30px 10px;
+    
+    @include _480 {
+      padding: 30px 37px;
+    }
+  }
+
+  .dropdown {
+    margin-bottom: 20px;
+
+    &__item {
+      padding: 10px;
+      border: 1px solid $color-gray;
+      border-radius: 4px;
+    }
+
+    &__header {
+      font-size: 18px;
+      font-family: $medium-font-family;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+
+      &-img {
+        width: 15px;
+        height: 18px;
+        background: url("../img/right-arrow.svg") no-repeat center;
+        background-size: cover;
+
+        &.active {
+          width: 20px;
+          background-image: url("../img/arrow-down.svg");
+        }
+      }
+    }
+
+    &__wrap-content {
+      display: none;
+      margin-top: 10px;
+    }
+
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+    }
+
+    &__img {
+      position: relative;
+
+      img  {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &__checkbox {
+      width: 100%;
+      padding-left: 4px;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $color-light-black;
+
+      & > label {
+        display: flex;
+        align-items: center;
+      }
+
+      & span {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .wrap-textarea {
+    padding: 30px 10px;
+    
+    @include _480 {
+      padding: 30px 37px;
+    }
+
+    textarea {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15px 10px;
+      border: 1px solid $color-gray;
+      border-radius: 4px;
+    }
+  }
+
+  .block-price {
+    background-color: $color-light-black;
+    opacity: 0.7;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__item {
+      padding: 10px 10px 10px 7px;
+      border-left: 1px solid $color-white;
+      
+      &:last-child {
+        border-left: none;
+      }
+
+      &.block-price__total {
+        color: $color-orange;
+      }
+    }
+  }
+
+  .wrap-btn {
+    width: 100%;
+    display: flex;
+
+    .button-base, .button-secondary {
+      border: none;
+      border-radius: 0;
+      width: 50%;
+    }
+  }
+}

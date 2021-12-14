@@ -1,0 +1,622 @@
+.main-page {
+
+  section {
+    margin-bottom: 100px;
+  }
+
+  .leading-restaurants__item:hover .leading-restaurants-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .popup {
+
+    &__content {
+      background-color: #E4F3FF;
+      box-shadow: 0 0 7px rgba(45, 101, 145, 0.9);
+      opacity: 0.9;
+      padding: 50px;
+      border: none;
+      border-radius: $base-border-radius;
+
+
+      &  input {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid $color-gray;
+        outline: none;
+        border-radius: $base-border-radius;
+        padding: 12px 20px;
+        margin-bottom: 15px;
+
+        &::-webkit-input-placeholder {
+          color: $color-gray;
+          font-family: $base-font-family;
+          direction: rtl;
+          font-size: 14px;
+        }
+        &::-moz-placeholder {
+          color: $color-gray;
+          font-family: $base-font-family;
+          direction: rtl;
+          font-size: 14px;
+        }
+        &:-moz-placeholder {
+          color: $color-gray;
+          font-family: $base-font-family;
+          direction: rtl;
+          font-size: 14px;
+        }
+        &:-ms-input-placeholder {
+          color: $color-gray;
+          font-family: $base-font-family;
+          direction: rtl;
+          font-size: 14px;
+        }
+
+        &:focus, &:active {
+          border-color: $color-orange;
+        }
+      }
+
+      .button-base {
+        max-width: 143px;
+      }
+    }
+  }
+
+
+  .flexslider {
+    border: none;
+    position: relative;
+    background: transparent;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 20px;
+
+    @include _768 {
+      width: 90%;
+    }
+    @include _1000 {
+      width: 50%;
+      padding: 0;
+    }
+
+    .flex-control-nav {
+      width: auto;
+      bottom: 20px;
+      right: -540px;
+      text-align: right;
+      display: none;
+
+      & li {
+        direction: rtl;
+      }
+
+      @include _1200 {
+        display: block;
+      }
+    }
+
+    .flex-control-paging li a {
+      width: 20px;
+      height: 20px;
+      background-color: #7D7D7D;
+
+      &.flex-active {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.preview {
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover;
+
+  &__wrap-content {
+    max-width: 2000px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-right: auto;
+
+
+    @include _1000 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    @include _1200 {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.slider-text {
+  max-width: 474px;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  align-self: center;
+  box-sizing: border-box;
+
+  @include _1000 {
+    margin: 0;
+    align-items: center;
+    min-width: 474px;
+    margin-left: 50px;
+  }
+
+  @include _1200 {
+    min-width: 565px;
+  }
+
+  &__title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    max-width: 80%;
+
+    @include _480 {
+      font-size: 42px;
+    }
+    @include _768 {
+      font-size: 48px;
+    }
+    @include _1000 {
+      font-size: 62px;
+      max-width: 100%;
+    }
+    @include _1200 {
+      font-size: 76px;
+    }
+  }
+
+  .wrap-btn {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 232px;
+  }
+
+  .button-secondary {
+    background-color: inherit;
+    color: $color-white;
+    margin-right: 10px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-white;
+    border: 1px solid $color-orange;
+    border-radius: $base-border-radius;
+    height: 44px;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+
+    @include _480 {
+      height: 60px;
+    }
+
+    &__input {
+      border: none;
+      outline: none;
+      width: 80%;
+      min-height: 100%;
+      margin: 0;
+      -webkit-appearance: none;
+      font-family: $base-font-family;
+      font-size: 14px;
+
+      &::-webkit-input-placeholder {
+        color: #959595;
+        font-family: $base-font-family;
+        direction: rtl;
+        font-size: 14px;
+      }
+      &::-moz-placeholder {
+        color: #959595;
+        font-family: $base-font-family;
+        direction: rtl;
+        font-size: 14px;
+      }
+      &:-moz-placeholder {
+        color: #959595;
+        font-family: $base-font-family;
+        direction: rtl;
+        font-size: 14px;
+      }
+      &:-ms-input-placeholder {
+        color: #959595;
+        font-family: $base-font-family;
+        direction: rtl;
+        font-size: 14px;
+      }
+    }
+
+    &__button {
+      width: 47px;
+      border-radius: $base-border-radius;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 34px;
+
+      @include _480 {
+        width: 115px;
+        height: auto;
+        padding: 10px 20px;
+      }
+
+      img {
+        width: 20px;
+      }
+
+      span {
+        display: none;
+        font-size: 16px;
+        margin-left: 10px;
+
+        @include _480 {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.about-us {
+  background-color: rgba(201, 232, 255, 0.5);
+  padding: 50px 20px;
+
+  @include _480 {
+    padding: 80px 20px 50px 20px;
+  }
+
+  @include _1200 {
+    padding: 100px 20px;
+  }
+
+  &__content {
+    display: grid;
+    grid-row-gap: 20px;
+
+    @include _768 {
+      grid-template-columns: 1.25fr 1fr;
+      grid-column-gap: 30px;
+      align-items: center;
+    }
+
+    @include _1000 {
+      align-items: flex-start;
+    }
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-family: $bold-font-family;
+
+    @include _480 {
+      font-size: 32px;
+    }
+    @include _1000 {
+      font-size: 43px;
+    }
+
+    & > span {
+      position: relative;
+
+      span {
+        color: $color-light-blue;
+      }
+    }
+
+    &-img {
+      position: absolute;
+      width: 54px;
+      z-index: -1;
+      bottom: -5px;
+      left: -32px;
+
+      @include _480 {
+        width: 62px;
+      }
+
+      @include _1000 {
+        width: 100px;
+        left: -60px;
+      }
+    }
+  }
+
+  &__text {
+    color: $color-gray;
+  }
+
+  &__wrap-img {
+    border-radius: $base-border-radius;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.leading-restaurants {
+
+  &__title {
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 55px;
+    max-width: 1080px;
+
+    @include _480 {
+      font-size: 32px;
+    }
+    @include _1000 {
+      font-size: 43px;
+      padding-left: 80px;
+    }
+
+    & > span {
+      position: relative;
+
+      span {
+        color: $color-light-blue;
+      }
+    }
+
+    &-img {
+      position: absolute;
+      width: 54px;
+      z-index: -1;
+      bottom: -5px;
+      left: -32px;
+
+      @include _480 {
+        width: 62px;
+      }
+
+      @include _1000 {
+        width: 100px;
+        left: -60px;
+      }
+    }
+  }
+
+  &__content {
+    padding: 0 20px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-auto-rows: minmax(268px, auto);
+    grid-row-gap: 10px;
+
+    @include _768 {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include _1200 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 0;
+    }
+  }
+
+  &-popup {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    &__btn-top {
+      background-color: $color-blue;
+      border: 1px solid $color-blue;
+      margin: 10px;
+      width: auto;
+      padding: 10px 35px;
+      align-self: flex-start;
+      font-size: 18px;
+      color: $color-white;
+      border-radius: 4px;
+    }
+
+    &__title {
+      font-size: 20px;
+      color: $color-white;
+      margin-bottom: 10px;
+      font-family: $medium-font-family;
+    }
+
+    &__bottom-block {
+      background-color: rgba(17, 38, 60, 0.7);
+
+      @include _1000 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
+    }
+
+    &__btn-bottom {
+      width: 100%;
+      border-radius: 0 0 4px 4px;
+
+      @include _1000 {
+        width: 40%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 4px;
+      }
+    }
+
+    &__content {
+      color: $color-white;
+      padding: 10px;
+      display: flex;
+      font-size: 15px;
+      font-family: $base-font-family;
+
+      @include _1000 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &__item {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+
+      @include _1000 {
+        width: 100%;
+        display: flex;
+        align-self: flex-start;
+      }
+
+      span {
+        margin: 0 5px;
+      }
+    }
+
+    &__response-wrap {
+      display: flex;
+      justify-content: flex-end;
+      align-self: flex-end;
+      margin-bottom: 5px;
+
+      @include _480 {
+        align-self: flex-start;
+      }
+    }
+
+    &__response-img {
+      width: 13px;
+      margin: 0 5px;
+    }
+
+    &__response-text-blue {
+      color: $color-blue;
+      text-align: left;
+
+      @include _480 {
+        text-align: right;
+      }
+    }
+
+  }
+
+  &__item {
+    border-radius: $base-border-radius;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .button-base__leading-restaurants {
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 100%;
+
+    @include _768 {
+      max-width: 210px;
+    }
+  }
+
+  .max-width-wrap_mr-ml {
+    padding: 0 20px;
+  }
+}
+
+.solutions {
+  background-color: rgba(201, 232, 255, 0.5);
+  padding: 100px 20px;
+
+  &__title {
+    margin-bottom: 60px;
+    text-align: right;
+
+    @include _480 {
+      margin-right: 90px;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 35px;
+    margin-bottom: 50px;
+
+    @include _1000 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__img {
+    max-width: 87px;
+  }
+
+  &__component {
+    text-align: center;
+  }
+
+  &__sub-title {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    font-family: $medium-font-family;
+
+    @include _480 {
+      font-size: 22px;
+    }
+    @include _480 {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+    color: $color-black;
+
+    @include _480 {
+      font-size: 16px;
+    }
+  }
+
+  .button-base {
+    display: block;
+    width: 100%;
+    margin:0 auto;
+
+    @include _768 {
+      max-width: 210px;
+    }
+  }
+}
