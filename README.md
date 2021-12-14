@@ -9,3 +9,5 @@ Project - [Software Rankings](https://Endry-dh.github.io/Software%20Rankings/)
 Project - [Teratek](https://Endry-dh.github.io/Teratek)
 
 Project - [Love-but](https://Endry-dh.github.io/love-but/)
+
+Project - [Wiser](https://Endry-dh.github.io/Wiser/)
