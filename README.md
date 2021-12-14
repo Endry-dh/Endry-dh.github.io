@@ -11,3 +11,7 @@ Project - [Teratek](https://Endry-dh.github.io/Teratek)
 Project - [Love-but](https://Endry-dh.github.io/love-but/)
 
 Project - [Wiser](https://Endry-dh.github.io/Wiser/)
+
+Project - [Site](https://Endry-dh.github.io/Site/)
+
+Project - [Crypto](https://Endry-dh.github.io/Crypto/)
