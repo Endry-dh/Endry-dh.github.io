@@ -1,0 +1,76 @@
+@import "./variables";
+@import "../components/mixins";
+
+html {
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.wrap-content {
+  max-width: 1172px;
+  margin: 0 auto;
+  padding: 0 30px 0 30px;
+
+  @include _1440 {
+    padding: 0;
+  }
+}
+
+.title-h2{
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  font-family:'ProximaNova-Black';
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  line-height: 36.54px;
+  margin-bottom: 40.33px;
+
+
+  @include _1440 {
+    font-size: 48px;
+    letter-spacing: 1.44px;
+    line-height: 58.46px;
+    margin-bottom: 104px;
+  }
+
+  &::before {
+    content:"";
+    display: block;
+    width: 19px;
+    height: 20px;
+    background-image: url("../img/icons/Line.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 17px;
+
+    @include _1440 {
+      width: 27px;
+      height: 29px;
+    }
+  }
+
+  &_logo-bg {
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 45px;
+      left: calc(50% - 584.62px / 2);
+      width: 584.62px;
+      height: 682px;
+      background-image: url("../img/icons/Symbol.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  &_black {
+    color: #233148;
+  }
+}
